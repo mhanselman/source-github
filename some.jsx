@@ -31,7 +31,7 @@ const Changes = ({ commit, sinceCommitId }) => {
         toHash,
     } = useChanges();
 
-    console.log('Hello');
+    console.log('Hello world');
 
     const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
