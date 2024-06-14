@@ -5,9 +5,8 @@ Line 4
 Line 5
 Line 6
 Line 7
-Line 8
 Line 9
-Line 1
+                style={{...style, width: rowMaxWidth.current ? `calc(var(--unified-gutter-width) + ${rowMaxWidth.current}px)` : style.width}}
 Line 2
 Line 3
 Line 4
@@ -30,11 +29,21 @@ Line 2
 Line 3
 Line 4
 Line 5
-Line 6
+                style={{...style, width: rowMaxWidth.current ? `calc(var(--unified-gutter-width) + ${rowMaxWidth.current}px)` : style.width}}
 Line 7
 Line 8
 Line 9
 Line 1
+  style={{...style, width: rowMaxWidth.current ? `calc(var(--unified-gutter-width) + ${rowMaxWidth.current}px)` : style.width}}
+Line 3
+Line 4
+Line 5
+Line 6
+Line 7
+Line 8
+Line 9
+                style={{...style, width: rowMaxWidth.current ? `calc(var(--unified-gutter-width) + ${rowMaxWidth.current}px)` : style.width}} & style={{...style, width: rowMaxWidth.current ? `calc(var(--unified-gutter-width) + ${rowMaxWidth.current}px)` : style.width}}
+
 Line 2
 Line 3
 Line 4
@@ -53,16 +62,7 @@ Line 7
 Line 8
 Line 9
 Line 1
-Line 2
-Line 3
-Line 4
-Line 5
-Line 6
-Line 7
-Line 8
-Line 9
-Line 1
-Line 2
+                style={{...style, width: rowMaxWidth.current ? `calc(var(--unified-gutter-width) + ${rowMaxWidth.current}px)` : style.width}}
 Line 3
 Line 4
 Line 5
